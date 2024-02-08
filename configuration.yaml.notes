@@ -1,0 +1,18 @@
+Hi. This is not a config file. These blurbs are notes on the config file. 
+
+
+# You want to have this for diagnose and insight
+# This enables Supervisor entities and a side pannel
+# Keyword for a custom pannel
+panel_custom: 
+# What it should be called
+  - name: Supervisor
+# where to find it 
+    url_path: hassio/system
+# Again, Names    
+    sidebar_title: Supervisor
+# Use the house with the links as the icon    
+    sidebar_icon: mdi:home-assistant
+# And some Url  
+    module_url: /local/panel-redirect.js 
+# In the result you will have two things: The panel in the main view and a element in the integrations.    
